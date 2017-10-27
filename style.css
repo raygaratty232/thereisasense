@@ -212,7 +212,7 @@ nav{
 	max-width: 100%;
 }
 .person-svg{
-	width: 130px;
+	width: 50%;
 	height: 100px;
 	fill: #fff;
 	transition: 0.5s;
@@ -229,7 +229,7 @@ nav{
 }
 .tab-list li{
 	height: 120px;
-	flex-basis: 250px;
+	width: 25%;
 	border-right: 2px solid #fff;
 }
 .tab-list li:last-child{
@@ -300,7 +300,7 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 		flex-wrap: wrap;
 	}
 	.tab-list li{
-		flex-basis: 170px;
+		width: 25%;
 	}
 }
 @media only screen and (max-width:650px){
@@ -372,9 +372,6 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 	}
 	.person-svg{
 		max-width: 100%;
-	}
-	.about-tab{
-		display: flex;
 	}
 	.tab-list li{
 		border: none;
