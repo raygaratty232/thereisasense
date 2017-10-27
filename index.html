@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-	<header>
-		<div class="wrapper">
+	<header id="main">
+		<div>
 			<nav>
 				<div class="nav">
 					<div class="logo">
@@ -20,8 +20,60 @@
 						<p><span>a</span> sense</p>
 					</div>
 					<ul class="menu">
+						<li><a href="#main">главная</a></li>
+						<li><a href="#about">о нас</a></li>
+						<li><a href="#">галерея</a>
+						</li>
+						<li><a href="#">музыка</a></li>
+					</ul>
+					<ul class="social">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+						<li><a href="tel:+380502414023"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="media-nav">
+					<div class="flex-container">
+						<div id="side-toggle">
+                    		<a href="#">
+                    			<i class="fa fa-bars" aria-hidden="true"></i>
+                    		</a>		
+                    	</div>	
+                    <div class="side-menu">
+                    			<ul class="slide-container">
+									<div>
+										<li><a href="#">главная</a></li>
+										<li><a href="#about">о нас</a></li>
+										<li><a href="#">галерея</a>
+										</li>
+										<li><a href="#">музыка</a></li>
+									</div>
+									<div class="media-social">
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+										<li><a href="tel:+380502414023"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+									</div>
+                    			</ul>
+            		</div>   
+					</div>
+					<div class="logo media-logo">
+						<p>there <span>is</span></p>
+						<p><span>a</span> sense</p>
+					</div>
+
+				</div>
+			</nav>
+			<nav class="fix-menu">
+				<div class="nav">
+					<div class="logo">
+						<p>there <span>is</span></p>
+						<p><span>a</span> sense</p>
+					</div>
+					<ul class="menu">
 						<li><a href="#">главная</a></li>
-						<li><a class="toggle-menu" href="#">о нас</a></li>
+						<li><a  href="#about">о нас</a></li>
 						<li><a href="#">галерея</a>
 						</li>
 						<li><a href="#">музыка</a></li>
@@ -67,6 +119,7 @@
 			</nav>
 		</div>
 	</header>
+	<div class="totop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
 	<div class="main-container">
 		<div class="post-rock">
 			<div class="post-rock-title">
@@ -85,7 +138,7 @@
 				<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BA" target="_blank">узнать больше на WiKi</a>
 			</div>
 		</div>
-		<div class="about">
+		<div class="about" id="about">
 			<div class="about-title">
 				<h2>О нас</h2>
 			</div>
@@ -635,6 +688,8 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.malihu.PageScroll2id.min.js"></script>
+<script src="totop.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js.js"></script>
 </body>
