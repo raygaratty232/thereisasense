@@ -9,7 +9,7 @@ var sideToggle = document.getElementById('side-toggle')
 	$(document).ready(function(){
     $(".fix-menu").removeClass("default");
     $(window).scroll(function(){
-        if($(this).scrollTop() > 400){
+        if($(this).scrollTop() > 380){
             $(".fix-menu").addClass("default").fadein('fast');
         }
         else{
@@ -22,7 +22,7 @@ $(".menu a").mPageScroll2id({
     offset : 50
 });
 $(".slide-container a").mPageScroll2id({
-    offset : 40
+    offset : 10
 });
 
 
@@ -32,9 +32,4 @@ $('.totop').tottTop({
     scrtollTopBtnDuration: 400
 });
 
-window.onload = function() {
-  Particles.init({
-    selector: '.background'
-  });
-}; 
 
