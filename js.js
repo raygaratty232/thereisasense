@@ -19,7 +19,7 @@ var sideToggle = document.getElementById('side-toggle')
 })
 
 $(".menu a").mPageScroll2id({
-    offset : 50
+    
 });
 $(".slide-container a").mPageScroll2id({
     offset : 10
