@@ -142,9 +142,6 @@ nav{
 	text-align: center;
 	height: 70px;
 }
-.drop-menu{
-
-}
 .main-container{
 	max-width: 1000px;
 	min-height: 1100px;
@@ -172,7 +169,7 @@ nav{
 .post-rock-text{
 	padding-top: 30px;
 	position: relative;
-	min-height: 390px;
+	min-height: 440px;
 }
 .post-rock-text a{
 	display: block;
@@ -197,6 +194,44 @@ nav{
 	text-align: center;
 	padding: 40px;
 	margin: 0;
+}
+.about-group{
+	min-height: 650px;
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.group-photo img{
+	width: 500px;
+	max-width: 100%;
+	padding: 20px;
+}
+.group-title{
+	width: 50%;
+	padding: 20px;
+}
+.group-title h1{
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald';
+}
+.group-title h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	color: #6f0e97;
+	font-family: 'Oswald';
+}
+.group-title h3{
+	text-transform: uppercase;
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Oswald';
+}
+.group-text{
+	padding: 20px;
 }
 .p-cont{
 	display: flex;
@@ -225,6 +260,7 @@ nav{
 	width: 100%;
 	min-height: 120px;
 	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
 	flex-wrap: wrap;
 }
 .tab-list li{
@@ -323,7 +359,7 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 		    z-index: 2;
 		    padding-left: 4%;
 		    width: 100%;
-		    margin-top: 10px;
+		    margin-top: 70px;	
 		    position: absolute;
 		    left: 0;
 		    right: 0;
@@ -382,8 +418,11 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 	.tab-list{
 		border: none;
 	}
-	.active .tab-a{
-		
+	.group-title{
+		width: 100%;
+	}
+	.group-photo img{
+		width: 640px;
 	}
 }
 @media only screen and (max-width:420px){
