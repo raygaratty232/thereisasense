@@ -358,12 +358,11 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 		    background: #000;
 		    z-index: 2;
 		    padding-left: 4%;
-		    width: 100%;
-		    margin-top: 70px;	
+		    width: 100%;	
 		    position: absolute;
 		    left: 0;
 		    right: 0;
-		    transform: translateY(-330px);
+		    transform: translateY(-100%);
 		    transition: 0.5s;
 		    padding: 2%;
 	}
@@ -382,6 +381,7 @@ background: linear-gradient(331deg, #24071B 17%, #692542 35%, #857A87 72%, #FFFF
 	}
 	.side-menu.active{
 		transform: translateX(0px);
+		margin-top: 70px;
 	}
 	.media-logo{
 		padding-right: 20px;
